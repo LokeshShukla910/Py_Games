@@ -82,7 +82,7 @@ def new_game():
 
 win =Tk()
 win.title("Tic-Tac_Toe")
-players = ["X","0"]
+players = ["X","O"]
 player = random.choice(players)
 buttons = [[0,0,0],
            [0,0,0],

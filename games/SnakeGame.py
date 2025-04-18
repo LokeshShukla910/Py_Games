@@ -145,7 +145,7 @@ class Game:
 
 
 if __name__ == "__main__":
-    root = Tk()
-    game = Game(root)
+    win = Tk()
+    game = Game(win)
     # Pic = PhotoImage(pass)
-    root.mainloop()
+    win.mainloop()
